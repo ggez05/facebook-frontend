@@ -54,6 +54,8 @@ export default function LoginForm({ setVisible }) {
         <img src="../../icons/facebook.svg" alt="" />
         <span>
           Facebook helps you connect and share with the people in your life.
+          !IMPORTANT - THIS IS JUST A CLONE APPLICATION MADE FOR PERSONAL AND
+          EXPREIMENTAL USE ONLY.
         </span>
       </div>
       <div className="login_2">
@@ -91,7 +93,7 @@ export default function LoginForm({ setVisible }) {
             )}
           </Formik>
           <Link to="/reset" className="forgot_password">
-            Forgotten password?
+            Forgotten password? - Reset here
           </Link>
           <DotLoader color="#1876f2" loading={loading} size={30} />
 
@@ -101,11 +103,11 @@ export default function LoginForm({ setVisible }) {
             className="blue_btn open_signup"
             onClick={() => setVisible(true)}
           >
-            Create Account
+            Create Account Now
           </button>
         </div>
         <Link to="/" className="sign_extra">
-          <b>Create a Page</b> for a celebrity, brand or business.
+          <b>Create a Page</b> for a celebrity, brand or business. - clone
         </Link>
       </div>
     </div>

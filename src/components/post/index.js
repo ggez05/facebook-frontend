@@ -34,17 +34,17 @@ export default function Post({ post, user, profile }) {
 
   const reactHandler = async (type) => {
     reactPost(post._id, type, user.token);
-    if (check == type) {
+    if (check === type) {
       setCheck();
-      let index = reacts.findIndex((x) => x.react == check);
+      let index = reacts.findIndex((x) => x.react === check);
       if (index !== -1) {
         setReacts([...reacts, (reacts[index].count = --reacts[index].count)]);
         setTotal((prev) => --prev);
       }
     } else {
       setCheck(type);
-      let index = reacts.findIndex((x) => x.react == type);
-      let index1 = reacts.findIndex((x) => x.react == check);
+      let index = reacts.findIndex((x) => x.react === type);
+      let index1 = reacts.findIndex((x) => x.react === check);
       if (index !== -1) {
         setReacts([...reacts, (reacts[index].count = ++reacts[index].count)]);
         setTotal((prev) => ++prev);
@@ -60,6 +60,7 @@ export default function Post({ post, user, profile }) {
   const showMore = () => {
     setCount((prev) => prev + 3);
   };
+  console.log(post.user);
   const postRef = useRef(null);
   return (
     <div
@@ -77,11 +78,11 @@ export default function Post({ post, user, profile }) {
             <div className="post_profile_name">
               {post.user.first_name} {post.user.last_name}
               <div className="updated_p">
-                {post.type == "profilePicture" &&
+                {post.type === "profilePicture" &&
                   `updated ${
                     post.user.gender === "male" ? "his" : "her"
                   } profile picture`}
-                {post.type == "coverPicture" &&
+                {post.type === "coverPicture" &&
                   `updated ${
                     post.user.gender === "male" ? "his" : "her"
                   } cover picture`}

@@ -1,112 +1,112 @@
 export const left = [
   {
-    text: "Find friends",
+    text: "Find more friends",
     img: "friends",
   },
   {
-    text: "Memories",
+    text: "Your Memories NA",
     img: "memories",
   },
   {
-    text: "Groups",
+    text: "Groups Information NA",
     img: "groups",
     notification: "5 new",
   },
   {
-    text: "Marketplace",
+    text: "Visit the Marketplace NA",
     img: "marketplace",
   },
   {
-    text: "Watch",
+    text: "Watch Videos NA",
     img: "watch",
     notification: "9 new videos",
   },
   {
-    text: "Saved",
+    text: "Saved NA",
     img: "saved",
   },
   {
-    text: "Pages",
+    text: "Pages NA",
     img: "pages",
   },
   {
-    text: "Events",
+    text: "Events NA",
     img: "events",
   },
   {
-    text: "Ad Center",
+    text: "Ad Center NA",
     img: "ad",
   },
   {
-    text: "Ads Manager",
+    text: "Ads Manager NA",
     img: "ads",
   },
   {
-    text: "Campus",
+    text: "Campus NA",
     img: "campus",
   },
   {
-    text: "Climate science center",
+    text: "Climate science center NA",
     img: "climate",
   },
   {
-    text: "Community Help",
+    text: "Community Help NA",
     img: "community",
   },
   {
-    text: "COVID-19 Information Centrer",
+    text: "COVID-19 Information Centrer NA",
     img: "covid",
   },
   {
-    text: "Emotional health",
+    text: "Emotional health NA",
     img: "emotional",
   },
   {
-    text: "Facebook Pay",
+    text: "Facebook Pay NA",
     img: "pay",
   },
   {
-    text: "Favorites",
+    text: "Favorites NA",
     img: "fav",
   },
   {
-    text: "Fundraisers",
+    text: "Fundraisers NA",
     img: "fund",
   },
   {
-    text: "Gaming Video",
+    text: "Gaming Video NA",
     img: "gaming",
   },
   {
-    text: "Jobs",
+    text: "Jobs NA",
     img: "jobs",
   },
   {
-    text: "Live videos",
+    text: "Live videos NA",
     img: "live",
   },
   {
-    text: "Messenger",
+    text: "Messenger NA",
     img: "messenger",
   },
   {
-    text: "Messenger Kids",
+    text: "Messenger Kids NA",
     img: "messkids",
   },
   {
-    text: "Most recent",
+    text: "Most recent NA",
     img: "recent",
   },
   {
-    text: "Play Games",
+    text: "Play Games NA",
     img: "play",
   },
   {
-    text: "Recent ad activity",
+    text: "Recent ad activity NA",
     img: "recentad",
   },
   {
-    text: "Weather",
+    text: "Weather NA",
     img: "weather",
   },
 ];
@@ -118,7 +118,7 @@ export const stories = [
   },
   {
     profile_picture: "../../stories/profile2.jpg",
-    profile_name: "South park",
+    profile_name: "Park",
     image: "../../stories/2.png",
   },
   {
@@ -128,12 +128,12 @@ export const stories = [
   },
   {
     profile_picture: "../../stories/profile4.jfif",
-    profile_name: "Football World",
+    profile_name: "Football",
     image: "../../stories/4.jpg",
   },
   {
     profile_picture: "../../stories/profile5.png",
-    profile_name: "The Witcher Wild Hunt",
+    profile_name: "Witcher Wild Hunt",
     image: "../../stories/5.jfif",
   },
 ];

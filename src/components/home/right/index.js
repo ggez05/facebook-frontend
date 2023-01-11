@@ -9,7 +9,7 @@ export default function RightHome({ user }) {
       <div className="splitter1"></div>
       <div className="contacts_wrap">
         <div className="contacts_header">
-          <div className="contacts_header_left">Contacts</div>
+          <div className="contacts_header_left">Your Contacts</div>
           <div className="contacts_header_right">
             <div className="contact_circle hover1">
               <NewRoom color={color} />

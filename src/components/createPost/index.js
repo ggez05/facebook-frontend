@@ -19,9 +19,14 @@ export default function CreatePost({ user, setVisible, profile }) {
       <div className="createPost_body">
         <div className="createPost_icon hover1">
           <LiveVideo color="#f3425f" />
-          Live Video
+          Live Video-NA
         </div>
-        <div className="createPost_icon hover1">
+        <div
+          className="createPost_icon hover1"
+          onClick={() => {
+            setVisible(true);
+          }}
+        >
           <Photo color="#4bbf67" />
           Photo/Video
         </div>
@@ -31,7 +36,12 @@ export default function CreatePost({ user, setVisible, profile }) {
             Life Event
           </div>
         ) : (
-          <div className="createPost_icon hover1">
+          <div
+            className="createPost_icon hover1"
+            onClick={() => {
+              setVisible(true);
+            }}
+          >
             <Feeling color="#f7b928" />
             Feeling/Activity
           </div>

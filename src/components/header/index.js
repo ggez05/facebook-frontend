@@ -53,7 +53,7 @@ export default function Header({ page, getAllPosts }) {
           <Search color={color} />
           <input
             type="text"
-            placeholder="Search Facebook"
+            placeholder="Search Facebook Clone"
             className="hide_input"
           />
         </div>
@@ -83,9 +83,7 @@ export default function Header({ page, getAllPosts }) {
           <Watch color={color} />
           <div className="middle_notification">9+</div>
         </Link>
-        <Link to="/" className="middle_icon hover1">
-          <Market color={color} />
-        </Link>
+
         <Link to="/" className="middle_icon hover1 ">
           <Gaming color={color} />
         </Link>

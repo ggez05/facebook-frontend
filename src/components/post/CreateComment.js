@@ -48,7 +48,7 @@ export default function CreateComment({ user, postId, setComments, setCount }) {
   };
   const handleComment = async (e) => {
     if (e.key === "Enter") {
-      if (commentImage != "") {
+      if (commentImage !== "") {
         setLoading(true);
         const img = dataURItoBlob(commentImage);
         const path = `${user.username}/post_images/${postId}`;
