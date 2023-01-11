@@ -155,7 +155,7 @@ export const create = [
     icon: "m_post_mar",
   },
   {
-    name: "Job",
+    name: "Job NA",
     icon: "m_post_job",
   },
 ];
