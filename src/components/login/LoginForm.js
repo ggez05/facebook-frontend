@@ -54,8 +54,7 @@ export default function LoginForm({ setVisible }) {
         <img src="../../icons/facebook.svg" alt="" />
         <span>
           Facebook helps you connect and share with the people in your life.
-          !IMPORTANT - THIS IS JUST A CLONE APPLICATION MADE FOR PERSONAL AND
-          EXPREIMENTAL USE ONLY.
+          WARNING - THIS IS JUST A CLONE!!!
         </span>
       </div>
       <div className="login_2">
