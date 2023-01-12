@@ -17,7 +17,7 @@ export default function Friends() {
   });
   useEffect(() => {
     getData();
-  }, []);
+  }, [error]);
   const getData = async () => {
     dispatch({ type: "FRIENDS_REQUEST" });
     const data = await getFriendsPageInfos(user.token);
