@@ -48,19 +48,16 @@ export default function Post({ post, user, profile }) {
       if (index !== -1) {
         setReacts([...reacts, (reacts[index].count = ++reacts[index].count)]);
         setTotal((prev) => ++prev);
-        console.log(reacts);
       }
       if (index1 !== -1) {
         setReacts([...reacts, (reacts[index1].count = --reacts[index1].count)]);
         setTotal((prev) => --prev);
-        console.log(reacts);
       }
     }
   };
   const showMore = () => {
     setCount((prev) => prev + 3);
   };
-  console.log(post.user);
   const postRef = useRef(null);
   return (
     <div

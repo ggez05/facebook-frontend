@@ -22,8 +22,9 @@ function App() {
     error: "",
   });
   useEffect(() => {
+    console.log("ran");
     getAllPosts();
-  }, [error]);
+  }, [user?.token]);
   const getAllPosts = async () => {
     try {
       dispatch({
@@ -44,7 +45,7 @@ function App() {
     } catch (error) {
       dispatch({
         type: "POSTS_ERROR",
-        payload: error.response.data.message,
+        payload: error.message,
       });
     }
   };
