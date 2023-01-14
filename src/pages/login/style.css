@@ -268,7 +268,9 @@
         }
         .login_1{
           margin: auto;
+          display: block;
         }
+
 }
 @media (min-width: 650px) {
   .login_footer_wrap {
