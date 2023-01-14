@@ -4,6 +4,7 @@
 }
 
 .login_wrap {
+
   height: 78vh;
   color: var(--color-primary);
 }
@@ -261,6 +262,14 @@
     width: 350px;
   }
 }
+@media screen and (max-width:850px) {
+      .login_1 img {
+          width: 100px;
+        }
+        .login_1{
+          margin: auto;
+        }
+}
 @media (min-width: 650px) {
   .login_footer_wrap {
     max-width: 650px;
@@ -278,10 +287,6 @@
     flex-direction: column;
     width: 50%;
     margin-bottom: 15vh;
-  }
-  .login_1 img {
-    width: 300px;
-    margin-left: -1.7rem;
   }
   .login_1 span {
     font-size: 28px;
