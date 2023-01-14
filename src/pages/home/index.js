@@ -20,7 +20,7 @@ export default function Home({ setVisible, posts, loading, getAllPosts }) {
       <Header page="home" getAllPosts={getAllPosts} />
       <LeftHome user={user} />
       <div className="home_middle" ref={middle}>
-        <Stories />
+        {/* <Stories /> */}
         {user.verified === false && <SendVerification user={user} />}
         <CreatePost user={user} setVisible={setVisible} />
         <div className="posts">

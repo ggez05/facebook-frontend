@@ -9,10 +9,15 @@
 }
 .login_1 {
   width: 300px;
-  margin: 0 auto;
+
+  margin: 5vh auto;
+  align-items: center;
 }
 .login_1 span {
   font-size: 20px;
+}
+.login_1 img{
+
 }
 .login_2 {
   text-align: center;

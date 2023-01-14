@@ -1,6 +1,5 @@
 import { ArrowRight, Plus } from "../../../svg";
 import "./style.css";
-import { stories } from "../../../data/home";
 import Story from "./Story";
 import { useMediaQuery } from "react-responsive";
 export default function Stories() {
@@ -24,7 +23,7 @@ export default function Stories() {
     ? 5
     : query1175px
     ? 4
-    : stories.length;
+    : "3"; //stories.length;
   return (
     <div className="stories">
       <div className="create_story_card">
@@ -38,9 +37,9 @@ export default function Stories() {
         </div>
         <div className="story_create_text">Create Story</div>
       </div>
-      {stories.slice(0, max).map((story, i) => (
+      {/*stories.slice(0, max).map((story, i) => (
         <Story story={story} key={i} />
-      ))}
+      ))*/}
       <div className="white_circle">
         <ArrowRight color="#65676b" />
       </div>

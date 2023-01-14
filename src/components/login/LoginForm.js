@@ -51,10 +51,10 @@ export default function LoginForm({ setVisible }) {
   return (
     <div className="login_wrap">
       <div className="login_1">
-        <img src="../../icons/facebook.svg" alt="" />
+        <img src="../../icons/socialicon.png" alt="" />
         <span>
-          Facebook helps you connect and share with the people in your life.
-          WARNING - THIS IS JUST A CLONE!!!
+          Social Icon helps you to build connections and share with your
+          friends.
         </span>
       </div>
       <div className="login_2">
@@ -106,7 +106,7 @@ export default function LoginForm({ setVisible }) {
           </button>
         </div>
         <Link to="/" className="sign_extra">
-          <b>Create a Page</b> for a celebrity, brand or business. - clone
+          <b>Create account now</b> and see what your friends are doing !
         </Link>
       </div>
     </div>

@@ -53,7 +53,7 @@ export default function Header({ page, getAllPosts }) {
           <Search color={color} />
           <input
             type="text"
-            placeholder="Search Facebook Clone"
+            placeholder="Search Social Icon"
             className="hide_input"
           />
         </div>

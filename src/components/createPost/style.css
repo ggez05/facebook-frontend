@@ -5,6 +5,9 @@
   margin-top: 1.1rem;
   width: 100%;
   cursor: pointer;
+  position: sticky;
+  top: 6.5vh;
+  z-index: 99;
 }
 .createPost_header {
   display: flex;

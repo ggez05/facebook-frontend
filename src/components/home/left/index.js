@@ -90,7 +90,7 @@ export default function LeftHome({ user }) {
         <Link to="/"></Link>Cookies <span>. </span>
         <Link to="/">More </Link>
         <span>. </span> <br />
-        This is a COPY made for learning purposes Meta © 2022
+        Social Icon - Garvit Bhatia © 2023
       </div>
     </div>
   );
