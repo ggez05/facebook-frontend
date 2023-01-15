@@ -45,7 +45,8 @@ export default function LoginForm({ setVisible }) {
       navigate("/");
     } catch (error) {
       setLoading(false);
-      setError(error.message);
+      console.log(error.response);
+      setError(error.response.data.message);
     }
   };
   return (
