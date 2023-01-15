@@ -12,20 +12,29 @@ import {
 import { useSelector } from "react-redux";
 import { AiOutlineMessage } from "react-icons/ai";
 import SearchMenu from "./SearchMenu";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import useClickOutside from "../../helpers/clickOutside";
 import UserMenu from "./userMenu";
-export default function Header({ page, getAllPosts }) {
+export default function Header({
+  page,
+  getAllPosts,
+  opensearchbar,
+  setopenthesearchbar,
+}) {
   const { user } = useSelector((user) => ({ ...user }));
   const color = "#65676b";
   const [showSearchMenu, setShowSearchMenu] = useState(false);
   const [showUserMenu, setShowUserMenu] = useState(false);
   const usermenu = useRef(null);
 
+  useEffect(() => {
+    setShowSearchMenu(opensearchbar);
+  }, [opensearchbar]);
+
   useClickOutside(usermenu, () => {
     setShowUserMenu(false);
+    setopenthesearchbar(false);
   });
-
   return (
     <header>
       <div className="header_left">
@@ -48,7 +57,7 @@ export default function Header({ page, getAllPosts }) {
           />
         </div>
       </div>
-      {showSearchMenu && (
+      {(showSearchMenu || opensearchbar) && (
         <SearchMenu
           color={color}
           setShowSearchMenu={setShowSearchMenu}

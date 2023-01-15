@@ -10,6 +10,18 @@
   left: 50%;
   transform: translateX(-50%);
 }
+.nopostaddfriend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-color:var(--bg-primary);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+}
 @media (max-width: 1175px) {
   .stories,
   .createPost,
