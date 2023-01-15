@@ -4,8 +4,6 @@ import { useNavigate, useParams } from "react-router-dom";
 import CreatePost from "../../components/createPost";
 import Header from "../../components/header";
 import LeftHome from "../../components/home/left";
-import RightHome from "../../components/home/right";
-import Stories from "../../components/home/stories";
 import ActivateForm from "./ActivateForm";
 import "./style.css";
 import axios from "axios";
@@ -71,10 +69,8 @@ export default function Activate() {
       <Header />
       <LeftHome user={user} />
       <div className="home_middle">
-        <Stories />
         <CreatePost user={user} />
       </div>
-      <RightHome user={user} />
     </div>
   );
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Helvetica, Arial, sans-serif;
 }
 html {
   overflow-y: scroll;
@@ -23,13 +23,13 @@ a {
   --divider: #ced0d4;
   --dark-bg-primary: #18191a;
   --dark-bg-secondary: #242526;
-  --dark-bg-third: #3a3b3c;
-  --dark-bg-forth: #3a3b3c;
-  --dark-color-primary: #242526;
-  --dark-color-secondary: #b0b3b8;
-  --blue-color: #257cee;
-  --green-color: #51c03b;
-  --light-blue-color: #85a5c7;
+  --dark-bg-third: #323436;
+  --dark-bg-forth: #2f3133;
+  --dark-color-primary: #111111;
+  --dark-color-secondary: #8f9299;
+  --blue-color: #12a04d;
+  --green-color: #8350e2;
+  --light-blue-color: #6285aa;
   --border-color: #ccced2;
   --shadow-1: rgba(0, 0, 0, 0.2);
   --shadow-2: rgba(0, 0, 0, 0.1);

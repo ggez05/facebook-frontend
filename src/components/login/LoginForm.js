@@ -102,7 +102,7 @@ export default function LoginForm({ setVisible }) {
             className="blue_btn open_signup"
             onClick={() => setVisible(true)}
           >
-            Create Account Now
+            Create New Account
           </button>
         </div>
         <Link to="/" className="sign_extra">

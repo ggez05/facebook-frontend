@@ -53,7 +53,7 @@ header {
   display: flex;
   align-items: center;
   gap: 14px;
-  transform: translateX(3px);
+  transform: translateX(6vw);
 }
 .middle_icon {
   position: relative;
@@ -69,15 +69,7 @@ header {
 .middle_icon:nth-child(2) {
   transform: translateX(-4px);
 }
-.middle_icon:nth-child(3) {
-  transform: translateX(-3px);
-}
-.middle_icon:nth-child(4) {
-  transform: translateX(-5px);
-}
-.middle_icon:nth-child(5) {
-  transform: translateX(-5px);
-}
+
 .active {
   border-bottom: 3px solid var(--blue-color);
   border-radius: 0;
@@ -87,16 +79,6 @@ header {
 .active svg {
   transform: translateY(1px) translateX(-1px);
 }
-.middle_notification {
-  position: absolute;
-  top: 3px;
-  right: 1.9rem;
-  background: #e41e3f;
-  border-radius: 50px;
-  padding: 1px 5px;
-  font-size: 13px;
-  color: #fff;
-}
 /*---Header middle-----*/
 
 /*---Header right-----*/
@@ -104,7 +86,7 @@ header {
 .header_right {
   display: flex;
   position: absolute;
-  right: 8px;
+  right: 25px;
   top: 50%;
   transform: translateY(-50%);
 }

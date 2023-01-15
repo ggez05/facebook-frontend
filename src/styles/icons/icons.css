@@ -1,4 +1,4 @@
-/* .friends_requests_icon {
+.friends_requests_icon {
   background-image: url(../../../public/icons/icons11.png);
   background-position: 0px -117px;
   background-size: auto;
@@ -771,5 +771,8 @@
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
+  
   display: inline-block;
-} */
+}
+
+

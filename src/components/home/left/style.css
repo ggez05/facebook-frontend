@@ -27,6 +27,17 @@
   margin-right: 11px;
   vertical-align: -0.25em;
 }
+.friendsleftbar{
+  display: flex;
+  padding-left: 11px;
+  align-items: center;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding-bottom: 7px;
+  gap: 20px;
+}
+
 .left_link span {
   margin-bottom: 4px;
   margin-left: 1px;

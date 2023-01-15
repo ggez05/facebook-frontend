@@ -294,6 +294,9 @@
   color: var(--color-secondary);
   font-size: 15px;
 }
+.comments_count{
+  padding-right: 10px;
+}
 .comments_count:hover,
 .share_count:hover {
   cursor: pointer;

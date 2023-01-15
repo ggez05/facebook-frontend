@@ -12,40 +12,13 @@ export default function CreatePost({ user, setVisible, profile }) {
             setVisible(true);
           }}
         >
-          What's on your mind, {user?.first_name}
+          Create a Post, {user?.first_name}
         </div>
       </div>
       <div className="create_splitter"></div>
-      <div className="createPost_body">
-        <div className="createPost_icon hover1">
-          <LiveVideo color="#f3425f" />
-          Live Video-NA
-        </div>
-        <div
-          className="createPost_icon hover1"
-          onClick={() => {
-            setVisible(true);
-          }}
-        >
-          <Photo color="#4bbf67" />
-          Photo/Video
-        </div>
-        {profile ? (
-          <div className="createPost_icon hover1">
-            <i className="lifeEvent_icon"></i>
-            Life Event
-          </div>
-        ) : (
-          <div
-            className="createPost_icon hover1"
-            onClick={() => {
-              setVisible(true);
-            }}
-          >
-            <Feeling color="#f7b928" />
-            Feeling/Activity
-          </div>
-        )}
+      <div className="createpost-bodytext">
+        Create Your Own Post.
+        <span>Your Post will be shared with your friends only.</span>
       </div>
     </div>
   );

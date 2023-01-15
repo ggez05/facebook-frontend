@@ -186,20 +186,22 @@
 }
 .login_footer_wrap {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 3px 10px;
   font-size: 13px;
   color: var(--color-secondary);
   max-width: 350px;
   margin: 0 auto;
-}
-.login_footer_wrap a {
-  display: flex;
+  justify-content: center;
   align-items: center;
 }
-.login_footer_wrap a:hover {
-  text-decoration: underline;
+.login_footer_wrap h1{
+  padding-bottom: 0.5vh;
 }
+.login_footer_wrap h4{
+  padding-bottom: 3vh;
+}
+
 .footer_square {
   background: var(--bg-secondary);
   height: 19px;

@@ -176,7 +176,6 @@ export default function Post({ post, user, profile }) {
         </div>
         <div className="to_right">
           <div className="comments_count">{comments.length} comments</div>
-          <div className="share_count">0 share</div>
         </div>
       </div>
       <div className="post_actions">
@@ -231,16 +230,8 @@ export default function Post({ post, user, profile }) {
           `,
             }}
           >
-            {check ? check : "Like"}
+            {check ? check : "React"}
           </span>
-        </div>
-        <div className="post_action hover1">
-          <i className="comment_icon"></i>
-          <span>Comment</span>
-        </div>
-        <div className="post_action hover1">
-          <i className="share_icon"></i>
-          <span>Share</span>
         </div>
       </div>
       <div className="comments_wrap">

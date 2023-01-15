@@ -25,27 +25,24 @@
   }
 }
 @media (max-width: 1030px) {
-  .left_home .left_link span,
   .left_home .left_link .col,
   .shortcut,
-  .shortcut_item span,
   .splitter,
   .fb_copyright {
     display: none;
   }
   .left_home {
-    width: 70px;
+    width: 20vw;
   }
   .left_link {
     background: var(--bg-third);
     width: 55px;
     height: 55px;
     border-radius: 50%;
-    display: grid;
+    display: flex;
     place-items: center;
   }
   .home_middle {
-    position: relative;
     margin-left: 55px;
   }
   .right_home {

@@ -123,7 +123,7 @@ export default function CreatePostPopup({
           >
             <i className="exit_icon"></i>
           </div>
-          <span>Create Post</span>
+          <span>New Post Creation</span>
         </div>
         <div className="box_profile">
           <img src={user.picture} alt="" className="box_profile_img" />
@@ -132,9 +132,7 @@ export default function CreatePostPopup({
               {user.first_name} {user.last_name}
             </div>
             <div className="box_privacy">
-              <img src="../../../icons/public.png" alt="" />
-              <span>Public</span>
-              <i className="arrowDown_icon"></i>
+              <span>Show:Friends</span>
             </div>
           </div>
         </div>

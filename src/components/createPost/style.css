@@ -9,6 +9,11 @@
   top: 6.5vh;
   z-index: 99;
 }
+.createpost-bodytext{
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
 .createPost_header {
   display: flex;
   align-items: center;
