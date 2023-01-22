@@ -90,9 +90,9 @@ export default function Header({
           <span>{user?.first_name}</span>
         </Link>
 
-        <div className="circle_icon hover1">
+        <Link to="/chat" className="circle_icon hover1">
           <AiOutlineMessage size={25}></AiOutlineMessage>
-        </div>
+        </Link>
 
         <div
           className={`circle_icon hover1 ${showUserMenu && "active_header"}`}

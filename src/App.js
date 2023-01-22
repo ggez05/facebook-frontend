@@ -12,6 +12,7 @@ import { useEffect, useReducer, useState } from "react";
 import axios from "axios";
 import { postsReducer } from "./functions/reducers";
 import Friends from "./pages/friends";
+import Messanger from "./pages/messager";
 
 function App() {
   const [visible, setVisible] = useState(false);
@@ -65,6 +66,13 @@ function App() {
             path="/profile"
             element={
               <Profile setVisible={setVisible} getAllPosts={getAllPosts} />
+            }
+            exact
+          />
+          <Route
+            path="/chat"
+            element={
+              <Messanger setVisible={setVisible} getAllPosts={getAllPosts} />
             }
             exact
           />

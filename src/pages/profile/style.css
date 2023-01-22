@@ -73,7 +73,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  margin-bottom: -2.8rem;
+  margin-bottom: -2.8rem; 
 }
 .profile_w_left {
   display: flex;

@@ -93,7 +93,7 @@ export default function Cover({ cover, visitor, photos }) {
           user.token
         );
         console.log(new_post);
-        if (new_post === "ok") {
+        if (new_post.status === "ok") {
           setLoading(false);
           setCoverPicture("");
           cRef.current.src = res[0].url;
